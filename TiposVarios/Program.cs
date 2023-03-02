@@ -27,7 +27,20 @@ namespace TiposVarios
             Console.WriteLine(t);
             double y = 1.4567;
             Console.WriteLine(y);
-            
+
+            //declarar váriaveis booleanas
+            int age = 20;
+            int bebidaAge =18;
+
+            if (age>=bebidaAge)
+            {
+                Console.WriteLine("Podes beber alcool");
+            }
+            else
+             {
+                Console.WriteLine("Não podes beber alcool");
+            }
+
 
         }
 
