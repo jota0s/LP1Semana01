@@ -9,6 +9,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
             Console.OutputEncoding = Encoding.UTF8;
 
             //váriaveis do Tipo string
@@ -25,8 +27,8 @@ namespace VariasStrings
             Console.WriteLine(y);
             Console.WriteLine(t);
             Console.WriteLine();
+
             //strings com concatenação
-            
             string o = "boo" + 3;
               Console.WriteLine(o);
             string p = "abc " + x;
@@ -38,6 +40,20 @@ namespace VariasStrings
             string u =string.Format("y é {1}, x é{0}", x, y);
             Console.WriteLine(u);
             Console.WriteLine(@"Verbatim com x={0}",x);
+
+            //imprimir as váriaveis com a formatação pedida
+           Console.WriteLine($"{xx:f2}");
+           Console.WriteLine($"{xx:p1}");
+
+           Console.WriteLine($"{ii:x}");
+           Console.WriteLine($"{ii:c}");
+
+
+
+
+
+
+
 
 
 
