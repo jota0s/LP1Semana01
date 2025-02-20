@@ -13,6 +13,11 @@ namespace ManyStrings
             Console.WriteLine("this is a star" + star);
             Console.WriteLine("this is a star" + heart);
             Console.WriteLine("this is a star" + flag);
+
+
+            Console.WriteLine($"this is a {star}");
+            Console.WriteLine($"this is a {heart}");
+            Console.WriteLine($"this is a {flag}");
         }
     }
 }
