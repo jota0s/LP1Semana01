@@ -31,6 +31,18 @@ namespace VariousTypes
             Console.WriteLine($"isto é um Hearth: {Hearth}" );
             char Arrow = '\u2794';
             Console.WriteLine($"isto é um Arrow: {Arrow}" );
+
+            float _float = 3.4f;
+            double _double = 3.2345;
+            decimal _decimal = 4.436534m;
+
+            Console.WriteLine($"Isto é um float com o seu literal: {_float}");
+            Console.WriteLine($"Isto é um Double: {_double}");
+            Console.WriteLine($"Isto é um Decimal com o seu literal: {_decimal}");
+
+            
+
+
         }
     }
 }
