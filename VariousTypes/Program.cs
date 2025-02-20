@@ -40,8 +40,12 @@ namespace VariousTypes
             Console.WriteLine($"Isto é um Double: {_double}");
             Console.WriteLine($"Isto é um Decimal com o seu literal: {_decimal}");
 
-            
 
+            bool _bool = true;
+            bool _bool2 = false;
+
+            Console.WriteLine($"Isto é uma variavel bool: {_bool}");
+            Console.WriteLine($"Isto é outra variavel bool: {_bool2}");
 
         }
     }
