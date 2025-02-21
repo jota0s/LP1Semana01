@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuPrograma", "MeuPrograma\MeuPrograma.csproj", "{2DA19C89-44C3-4925-8169-565B0519E537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percentagem", "Percentagem\Percentagem.csproj", "{80920A84-0340-427A-8650-E0BE6B3FA627}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2DA19C89-44C3-4925-8169-565B0519E537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DA19C89-44C3-4925-8169-565B0519E537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA19C89-44C3-4925-8169-565B0519E537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80920A84-0340-427A-8650-E0BE6B3FA627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80920A84-0340-427A-8650-E0BE6B3FA627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80920A84-0340-427A-8650-E0BE6B3FA627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80920A84-0340-427A-8650-E0BE6B3FA627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
