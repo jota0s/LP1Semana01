@@ -1,7 +1,11 @@
 ﻿using System;
 
+
 namespace MeuPrograma
-{
+{   
+    /// <summary>
+    /// Main programa class
+    /// </summary>
     public class Program
     {
         private static void Main(string[] args)
