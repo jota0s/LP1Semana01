@@ -16,9 +16,11 @@ namespace VariousTypes
             Console.WriteLine($"float: {pi}");
             Console.WriteLine($"double: {t}");
             Console.WriteLine($"long: {a}");
+
+
+            char heart = '\u101E';
+            Console.WriteLine($"char: {heart}");
             
-
-
 
         }
     }
