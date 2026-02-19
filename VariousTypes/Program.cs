@@ -21,7 +21,7 @@ namespace VariousTypes
             char heart = '\u101E';
             Console.WriteLine($"char: {heart}");
             
-
+    
         }
     }
 }
